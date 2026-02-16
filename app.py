@@ -6,13 +6,11 @@ from aiogram.fsm.state import State, StatesGroup
 import logging
 import asyncio
 from key import phone_keyboard, computer_keyboard, computer_caption, inline_key
+from data import TOKEN
 
-
-bot = Bot(token='7910197535:AAHcxVp4Bq9xIYIpKT5HSe5r9qI_GTdtMd4')
+bot = Bot(token=TOKEN)
 dp = Dispatcher()
 router = Router()
-
-print('a')
 
 class RegisterStates(StatesGroup):
     name = State()
