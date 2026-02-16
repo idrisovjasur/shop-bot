@@ -12,6 +12,7 @@ bot = Bot(token='7910197535:AAHcxVp4Bq9xIYIpKT5HSe5r9qI_GTdtMd4')
 dp = Dispatcher()
 router = Router()
 
+print('a')
 
 class RegisterStates(StatesGroup):
     name = State()
