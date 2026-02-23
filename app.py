@@ -17,6 +17,7 @@ class RegisterStates(StatesGroup):
     phone = State()
     computer = State()
 
+# uopdate
 # @dp.message()
 # async def debug(message: Message):
 #     print("CHAT_ID:", message.chat.id)
